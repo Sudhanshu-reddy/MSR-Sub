@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration - DMCMICS 2025</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <div class="logo">
+                    <h1>DMCMICS 2025</h1>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="committee.html">Committee</a></li>
+                    <li><a href="registration.html" class="active">Registration</a></li>
+                    <li><a href="program.html">Program</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="page-hero">
+        <div class="container">
+            <h1>Registration & Paper Submission</h1>
+            <p>Join us at DMCMICS 2025</p>
+        </div>
+    </section>
+
+    <section class="registration-content">
+        <div class="container">
+            <div class="registration-intro">
+                <h2>Registration Information</h2>
+                <p>We invite researchers, academics, and professionals to register for DMCMICS 2025. The conference offers various registration categories to accommodate different participants.</p>
+            </div>
+
+            <div class="registration-fees">
+                <h2>Registration Fees</h2>
+                <div class="fees-table">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Category</th>
+                                <th>Early Bird (Before April 30, 2025)</th>
+                                <th>Regular (May 1 - May 31, 2025)</th>
+                                <th>On-site</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>International Authors/Delegates</td>
+                                <td>$300</td>
+                                <td>$350</td>
+                                <td>$400</td>
+                            </tr>
+                            <tr>
+                                <td>Indian Authors/Delegates</td>
+                                <td>₹8000</td>
+                                <td>₹9000</td>
+                                <td>₹10000</td>
+                            </tr>
+                            <tr>
+                                <td>Students (International)</td>
+                                <td>$150</td>
+                                <td>$200</td>
+                                <td>$250</td>
+                            </tr>
+                            <tr>
+                                <td>Students (Indian)</td>
+                                <td>₹4000</td>
+                                <td>₹5000</td>
+                                <td>₹6000</td>
+                            </tr>
+                            <tr>
+                                <td>Accompanying Person</td>
+                                <td>$100</td>
+                                <td>$150</td>
+                                <td>$200</td>
+                            </tr>
+                            <tr>
+                                <td>Listeners/Observers</td>
+                                <td>$50</td>
+                                <td>$75</td>
+                                <td>$100</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="fees-note">
+                    <p><strong>Note:</strong> All fees are inclusive of GST. Early bird registration offers significant discounts. Registration includes conference kit, lunch, tea/coffee, and access to all sessions.</p>
+                </div>
+            </div>
+
+            <div class="paper-submission">
+                <h2>Paper Submission Guidelines</h2>
+                <div class="submission-info">
+                    <div class="guidelines">
+                        <h3>Submission Guidelines</h3>
+                        <ul>
+                            <li><i class="fas fa-check"></i> Papers must be original and not previously published</li>
+                            <li><i class="fas fa-check"></i> Maximum 6 pages including figures and references</li>
+                            <li><i class="fas fa-check"></i> Follow IEEE double-column format</li>
+                            <li><i class="fas fa-check"></i> Include abstract (150-250 words)</li>
+                            <li><i class="fas fa-check"></i> Keywords (3-5 keywords)</li>
+                            <li><i class="fas fa-check"></i> Font: Times New Roman, 10pt</li>
+                        </ul>
+                    </div>
+                    <div class="important-dates">
+                        <h3>Important Dates</h3>
+                        <div class="dates-list">
+                            <div class="date-item">
+                                <span class="date">March 31, 2025</span>
+                                <span class="event">Abstract Submission Deadline</span>
+                            </div>
+                            <div class="date-item">
+                                <span class="date">April 15, 2025</span>
+                                <span class="event">Full Paper Submission Deadline</span>
+                            </div>
+                            <div class="date-item">
+                                <span class="date">April 30, 2025</span>
+                                <span class="event">Acceptance Notification</span>
+                            </div>
+                            <div class="date-item">
+                                <span class="date">May 15, 2025</span>
+                                <span class="event">Camera Ready Paper Submission</span>
+                            </div>
+                            <div class="date-item">
+                                <span class="date">June 03-04, 2025</span>
+                                <span class="event">Conference Dates</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="registration-form-section">
+                <h2>Register Now</h2>
+                <div class="registration-form-container">
+                    <form id="registrationForm" class="registration-form">
+                        <div class="form-section">
+                            <h3>Personal Information</h3>
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="title">Title *</label>
+                                    <select id="title" name="title" required>
+                                        <option value="">Select Title</option>
+                                        <option value="Dr">Dr</option>
+                                        <option value="Prof">Prof</option>
+                                        <option value="Mr">Mr</option>
+                                        <option value="Ms">Ms</option>
+                                        <option value="Mrs">Mrs</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="firstName">First Name *</label>
+                                    <input type="text" id="firstName" name="firstName" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="lastName">Last Name *</label>
+                                    <input type="text" id="lastName" name="lastName" required>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="email">Email *</label>
+                                    <input type="email" id="email" name="email" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="phone">Phone *</label>
+                                    <input type="tel" id="phone" name="phone" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="organization">Organization/Institution *</label>
+                                    <input type="text" id="organization" name="organization" required>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="country">Country *</label>
+                                    <input type="text" id="country" name="country" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="category">Registration Category *</label>
+                                    <select id="category" name="category" required>
+                                        <option value="">Select Category</option>
+                                        <option value="international-author">International Author/Delegate</option>
+                                        <option value="indian-author">Indian Author/Delegate</option>
+                                        <option value="international-student">International Student</option>
+                                        <option value="indian-student">Indian Student</option>
+                                        <option value="accompanying">Accompanying Person</option>
+                                        <option value="listener">Listener/Observer</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="feeType">Fee Type *</label>
+                                    <select id="feeType" name="feeType" required>
+                                        <option value="">Select Fee Type</option>
+                                        <option value="early-bird">Early Bird</option>
+                                        <option value="regular">Regular</option>
+                                        <option value="on-site">On-site</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-section">
+                            <h3>Paper Information (If applicable)</h3>
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="paperTitle">Paper Title</label>
+                                    <input type="text" id="paperTitle" name="paperTitle">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="authors">Authors (comma separated)</label>
+                                    <input type="text" id="authors" name="authors">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="abstract">Abstract (max 500 words)</label>
+                                    <textarea id="abstract" name="abstract" rows="4" maxlength="2000"></textarea>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-section">
+                            <h3>Accommodation</h3>
+                            <div class="form-row">
+                                <div class="form-group checkbox-group">
+                                    <input type="checkbox" id="needAccommodation" name="needAccommodation">
+                                    <label for="needAccommodation">I need accommodation arrangement</label>
+                                </div>
+                            </div>
+                            <div id="accommodationDetails" style="display: none;">
+                                <div class="form-row">
+                                    <div class="form-group">
+                                        <label for="checkIn">Check-in Date</label>
+                                        <input type="date" id="checkIn" name="checkIn">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="checkOut">Check-out Date</label>
+                                        <input type="date" id="checkOut" name="checkOut">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="roomType">Room Type</label>
+                                        <select id="roomType" name="roomType">
+                                            <option value="">Select Room Type</option>
+                                            <option value="single">Single Room</option>
+                                            <option value="double">Double Room</option>
+                                            <option value="suite">Suite</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-section">
+                            <h3>Payment Information</h3>
+                            <div class="payment-info">
+                                <p>Your registration fee will be calculated based on your selections above.</p>
+                                <div class="fee-display">
+                                    <span id="calculatedFee">Fee will be calculated after form submission</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-section">
+                            <div class="terms-conditions">
+                                <div class="checkbox-group">
+                                    <input type="checkbox" id="terms" name="terms" required>
+                                    <label for="terms">I agree to the <a href="#" target="_blank">Terms and Conditions</a> and <a href="#" target="_blank">Cancellation Policy</a></label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-actions">
+                            <button type="submit" class="btn btn-primary">Submit Registration</button>
+                            <button type="reset" class="btn btn-secondary">Reset Form</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="payment-methods">
+                <h2>Payment Methods</h2>
+                <div class="payment-options">
+                    <div class="payment-option">
+                        <i class="fas fa-credit-card"></i>
+                        <h3>Credit/Debit Card</h3>
+                        <p>Visa, MasterCard, American Express</p>
+                    </div>
+                    <div class="payment-option">
+                        <i class="fas fa-university"></i>
+                        <h3>Bank Transfer</h3>
+                        <p>Direct bank transfer (NEFT/RTGS)</p>
+                    </div>
+                    <div class="payment-option">
+                        <i class="fas fa-money-bill-wave"></i>
+                        <h3>PayPal</h3>
+                        <p>International payments</p>
+                    </div>
+                    <div class="payment-option">
+                        <i class="fas fa-mobile-alt"></i>
+                        <h3>UPI/Digital Wallets</h3>
+                        <p>Google Pay, PhonePe, Paytm</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>DMCMICS 2025</h3>
+                    <p>De Gruyter Mathematics, Computing, and Management in Interdisciplinary Convergence Studies</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="committee.html">Committee</a></li>
+                        <li><a href="registration.html">Registration</a></li>
+                        <li><a href="program.html">Program</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Anjuman Institute of Technology and Management<br>Bhatkal, Karnataka</p>
+                    <p><i class="fas fa-envelope"></i> info@dmcmics2025.com</p>
+                    <p><i class="fas fa-phone"></i> +91-XXXXXXXXXX</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 DMCMICS. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/registration.js"></script>
+</body>
+</html>
